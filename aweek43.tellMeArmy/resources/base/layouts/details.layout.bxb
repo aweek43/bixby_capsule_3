@@ -1,0 +1,54 @@
+layout-macro-def (details) {
+
+  params {
+    param (detail_output) {
+      type(endInfo)
+      min (Required) max (Many)
+    }
+  }
+
+  content {
+    section {
+      content {
+
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("일로 환산하면")
+                secondary ("#{value(detail_output.interval[2])}일")
+            }
+          }
+        }
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("시간으로 환산하면")
+                secondary ("#{value(detail_output.interval[1])}시간")
+            }
+          }
+        }
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("초로 환산하면")
+                secondary ("#{value(detail_output.interval[0])}초")
+            }
+          }
+        }
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("#{value(detail_output.content[0])}")
+                secondary ("#{value(detail_output.time[0])}번")
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

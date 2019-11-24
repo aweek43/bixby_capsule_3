@@ -1,0 +1,35 @@
+layout-macro-def (not_enlist) {
+
+  params {
+    param (detail_output) {
+      type(endInfo)
+      min (Required)
+    }
+  }
+
+  content {
+    section {
+      content {
+
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("아직 입대하지 않으셨군요!")
+            }
+          }
+        }
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("입대까지")
+                secondary ("#{value(detail_output.interval[0])}일")
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

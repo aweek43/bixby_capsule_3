@@ -1,0 +1,3 @@
+integer (interval) {
+  description (전역까지 남은 기간)
+}

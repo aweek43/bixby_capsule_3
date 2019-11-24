@@ -1,0 +1,19 @@
+layout-macro-def (inLayout) {
+
+  content {
+    section {
+      content {
+
+        cell-card {
+          slot2 {
+            content {
+                order (PrimarySecondary)
+                primary ("정보가 입력되었어요\n기다릴게요")
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

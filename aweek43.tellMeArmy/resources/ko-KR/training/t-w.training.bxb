@@ -1,0 +1,5 @@
+train (t-wrr1mfcnx5txr93s6okkh0w3u) {
+  utterance ("[g:InputEnlist] {[g:start] (2월 5일)[v:time.DateTimeExpression]}에 (해병대)[v:where]로 입대해")
+  plan (Y2BlkEgsT03NNjHWK0nNyfFNdSzKrdRLKc3NrWSQwyLjmVdQWuKal5NZXIJVZ3FJYhF2mfKM1KJUBumyzDK9kszcVD2XxJLUECDDtaKgKLW4ODM/j4GFgZGBiYEZSDMAWSA2IwMIsIAxI1CGCaIGAA==)
+  last-modified (1574488045062)
+}

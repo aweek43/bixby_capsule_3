@@ -1,0 +1,14 @@
+endpoints {
+  action-endpoints {
+
+    action-endpoint (DisCharge) {
+      accepted-inputs ($vivContext)
+      local-endpoint (DisCharge.js)
+    }
+
+    action-endpoint (InputEnlist) {
+      accepted-inputs (start, where, $vivContext)
+      local-endpoint (InputEnlist.js)
+    }
+  }
+}

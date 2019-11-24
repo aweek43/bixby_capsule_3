@@ -1,0 +1,14 @@
+capsule-info {
+  display-name (전역일 계산기)
+  developer-name (김한주와채명준)
+  icon-asset (images/icon.png)
+  description ("전역일 계산기입니다.")
+
+  search-keywords {
+    keyword (전역일 계산기)
+  }
+  dispatch-name (전역일 계산기)
+  dispatch-aliases {
+    alias (전역일계산기)
+ }
+}

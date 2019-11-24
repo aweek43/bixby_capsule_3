@@ -1,0 +1,3 @@
+integer (dummy) {
+  description (__DESCRIPTION__)
+}

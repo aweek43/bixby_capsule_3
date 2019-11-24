@@ -1,0 +1,5 @@
+train (t-2d9fv6kt5658zasksqdxl6fc0) {
+  utterance ("[g:InputEnlist] {[g:start] (2020년 11월 2일)[v:time.DateTimeExpression]}에 (해군)[v:where]으로 입대해")
+  plan (Y2BlkEgsT03NNjHWK0nNyfFNdSzKrdRLKc3NrWSQwyLjmVdQWuKal5NZXIJVZ3FJYhF2mfKM1KJUBumyzDK9kszcVD2XxJLUECDDtaKgKLW4ODM/j4GFgZGBiYEZSDMAWSA2IwMIsIAxI1CGCaIGAA==)
+  last-modified (1574488217504)
+}

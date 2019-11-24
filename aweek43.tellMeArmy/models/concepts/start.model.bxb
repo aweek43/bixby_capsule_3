@@ -1,0 +1,4 @@
+structure (start) {
+  description (입대 날짜)
+  role-of (time.DateTimeExpression)
+}

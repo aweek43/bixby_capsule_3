@@ -1,0 +1,7 @@
+action (DisCharge) {
+  description (전역일 계산해서 반환)
+  collect {
+  }
+  output (endInfo)
+  type (Search)
+}

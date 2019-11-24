@@ -1,0 +1,26 @@
+result-view {
+  match { endInfo(this) }
+
+  
+  message {
+    template ("전역일") {
+      speech ("#{value(this.interval[2])}일 남았습니다. #{value(this.content[0])}를, #{value(this.time[0])}번 할수 있습니다. 아직 많이 남았군요.ㅋㅋ")
+    }
+  }
+    render {
+      if (size(this.interval) == 1) {
+        layout-macro (not_enlist) {
+          param (detail_output) {
+            expression (this)
+          }
+        }
+      }
+      else-if (size(this.interval) > 1) {
+        layout-macro (details) {
+          param (detail_output) {
+            expression (this)
+          }
+        }
+      }
+    }
+}

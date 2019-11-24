@@ -1,0 +1,16 @@
+result-view {
+  match: dummy(this)
+
+  
+  message {
+    template ("입력되었습니다") {
+      speech ("축하해요. 저는 안가는데, ㅋㅋ")
+    }
+  }
+
+  render {
+    layout-macro (inLayout) {
+    }
+  }
+
+}

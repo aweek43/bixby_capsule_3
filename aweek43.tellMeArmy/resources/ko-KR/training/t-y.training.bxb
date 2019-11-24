@@ -1,0 +1,10 @@
+train (t-ylxv6bqakvh6bcg9t5hwx8hmb) {
+  utterance ("[g:InputEnlist] 나 {[g:start] (10월 10일)[v:time.DateTimeExpression]}에 (육군)[v:where]으로 입대해")
+  plan (Y2BlkEgsT03NNjHWK0nNyfFNdSzKrdRLKc3NrWSQwyLjmVdQWuKal5NZXIJVZ3FJYhF2mfKM1KJUBumyzDK9kszcVD2XxJLUECDDtaKgKLW4ODM/j4GFgZGBiYEZSDMAWSA2IwMIsIAxI1CGCaIGAA==)
+  last-modified (1574483651171)
+}
+train (t-yz9e1joht2r5d3nhnyn01mw9y) {
+  utterance ([g:DisCharge] 전역 언제하지)
+  plan (Y2BikEosT03NNjHWK0nNyfFNdSzKrdRLzUvxzEvLZ5DBIueSWeyckViUnsrACIQMUAwkAQ==)
+  last-modified (1574493158538)
+}
