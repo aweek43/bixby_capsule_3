@@ -11,7 +11,7 @@ module.exports.function = function inputEnlist (start, where, $vivContext) {
     headers:{'Accept':'application/json'}
   };
   const http = require('http');
-  var url = "http://35.200.14.245:9597/users/create?";
+  var url = "http://{url}/users/create?";
   url += encodeURI("id=") + String($vivContext.bixbyUserId);
   url += encodeURI("&military_type=") + String(where);
   url += encodeURI("&start_time=") + String(start);
