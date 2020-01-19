@@ -9,7 +9,7 @@ module.exports.function = function DisCharge ($vivContext) {
     cacheTime: 0,
     headers:{'Accept':'application/json'}
   };
-  var url = "http://35.200.14.245:9597/users/remain?";
+  var url = "http://{url}/users/remain?";
   url += encodeURI("id=") + String($vivContext.bixbyUserId);
   var response = http.getUrl(url, options);
   console.log("log: ", response);
